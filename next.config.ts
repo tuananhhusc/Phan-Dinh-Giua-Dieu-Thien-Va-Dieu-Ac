@@ -5,9 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Required because GitHub Pages doesn't support Next.js Image Optimization
   },
-  // IMPORTANT: If deploying to a sub-path (e.g., username.github.io/repo-name),
-  // uncomment the line below and replace '/repo-name' with your repository name.
-  // basePath: '/repo-name',
+  basePath: '/Phan-Dinh-Giua-Dieu-Thien-Va-Dieu-Ac',
 };
 
 export default nextConfig;
